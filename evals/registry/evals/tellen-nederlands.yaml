@@ -1,0 +1,7 @@
+tellen-nederlands:
+  id: tellen-nederlands.dev.v0
+  metrics: [accuracy]
+tellen-nederlands.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: tellen_nederlands/samples.jsonl
